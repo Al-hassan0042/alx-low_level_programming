@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE ; echo $? > c
+export CFILE=main.c ; gcc $CFILE ; echo $? > c

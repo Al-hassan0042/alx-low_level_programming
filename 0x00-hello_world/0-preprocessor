@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc $CFILE
-echo $? > c
+gcc $CFILE ; echo $? > c
